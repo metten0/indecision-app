@@ -1,10 +1,10 @@
-console.log("App.js is running!");
+console.log('App.js is running!');
 
 // JSX - JavaScript XML
 
 var app = {
-  title: "Indecision App",
-  subtitle: "Put your life in the hands of a computer!"
+  title: 'Does this change?',
+  subtitle: 'Put your life in the hands of a computer!'
 };
 var template = (
   <div>
@@ -18,9 +18,9 @@ var template = (
 );
 
 var user = {
-  name: "Jason Metten",
+  name: 'Jason Metten',
   age: 42,
-  location: "Des Moines"
+  location: 'Des Moines'
 };
 
 var templateTwo = (
@@ -30,6 +30,6 @@ var templateTwo = (
     <p>{user.location}</p>
   </div>
 );
-var appRoot = document.getElementById("app");
+var appRoot = document.getElementById('app');
 
 ReactDOM.render(template, appRoot);
